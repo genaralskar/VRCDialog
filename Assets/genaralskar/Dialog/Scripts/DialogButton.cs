@@ -18,10 +18,10 @@ namespace genaralskar.VRC.Dialog
         public Button button;
         public TextMeshProUGUI buttonText;
 
-        /// <summary>
-        /// Selects this button, like it was clicked on
-        /// </summary>
-        public void SelectButton()
+		/// <summary>
+		/// Selects this button, like it was clicked on
+		/// </summary>
+		public void SelectButton()
         {
             dialogManager.SelectOption(optionIndex);
         }

@@ -12,10 +12,10 @@ namespace genaralskar.VRC.Dialog
     public class DialogInteractStarter : UdonSharpBehaviour
     {
         public DialogManager dialogManager;
-        public Dialog dialog;
+        public string startNode;
         public override void Interact()
         {
-            dialogManager.StartDialog(dialog);
+            dialogManager.StartDialogByNodeName(startNode);
         }
     }
 }
